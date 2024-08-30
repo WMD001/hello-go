@@ -1,8 +1,11 @@
 package main
 
+/*
+结构体字段可通过点号 . 来访问。
+*/
+
 import "fmt"
 
-// Vertex 定义结构体
 type Vertex struct {
 	X int
 	Y int
@@ -10,6 +13,7 @@ type Vertex struct {
 
 func main() {
 	v := Vertex{1, 2}
-	v.X = 4
+	p := &v
+	p.X = 1e9
 	fmt.Println(v)
 }

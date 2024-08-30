@@ -1,5 +1,9 @@
 package main
 
+/*
+初始化语句和后置语句是可选的。
+*/
+
 import "fmt"
 
 func main() {
